@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Appointment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Book Appointment</h2>
+  <form action="appointment_process.php" method="POST">
+    <label>Doctor ID:</label>
+    <input type="number" name="doctor_id" required><br>
+
+    <label>Patient ID:</label>
+    <input type="number" name="patient_id" required><br>
+
+    <label>Date:</label>
+    <input type="date" name="appointment_date" required><br>
+
+    <button type="submit">Book Appointment</button>
+  </form>
+</body>
+</html>
